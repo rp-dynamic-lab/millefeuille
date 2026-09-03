@@ -1,5 +1,4 @@
 # Millefeuille
-
 A working architecture for exploring what happens when new information changes the meaning of context a system already holds.
 
 ## What I’m trying to understand
