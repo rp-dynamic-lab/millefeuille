@@ -1,7 +1,7 @@
-# Millefeuille
+### Millefeuille
 A working architecture for exploring what happens when new information changes the meaning of context a system already holds.
 
-## What I’m trying to understand
+### What I’m trying to understand
 
 Context is often described as though it accumulates.
 
@@ -17,7 +17,7 @@ Millefeuille asks:
 
 **How should a system represent context when new information can change the meaning of what came before?**
 
-## The idea
+### The idea
 
 Millefeuille treats context as layered, but not as a static stack.
 
@@ -29,7 +29,7 @@ A new layer may bring an earlier one forward, push something else into the backg
 
 The technical question is how to represent enough of those relationships for a system to update without treating every new piece of information as equally important.
 
-## Current status
+### Current status
 
 **Architecture / pre build**
 
@@ -45,7 +45,7 @@ It cannot yet tell whether new information should change the meaning of what it 
 
 That boundary is part of what Millefeuille will eventually explore more directly.
 
-## First build
+### First build
 
 The first useful version should make a change in interpretation visible.
 
@@ -62,7 +62,7 @@ The system has to determine whether the new information:
 
 I am still working out how little machinery I can use to make that problem observable.
 
-## Why Millefeuille
+### Why Millefeuille
 
 A millefeuille is made through layers, but the thing I care about is not simply that there are many of them.
 
